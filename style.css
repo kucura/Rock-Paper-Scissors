@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+}   
+
+#playerChoice {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rock, .paper, .scissors {
+    background-color: white;
+    border-radius: 15px;
+    border: solid 2px black;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.rock:hover {
+    border: solid 5px yellow;
+}
+
+.paper:hover {
+    border: solid 5px yellow;
+}
+
+.scissors:hover {
+    border: solid 5px yellow;
+}
+
+
+#score {
+    width: 600px;
+    height: 300px;
+    border: solid 2px black;
+    align-items: center;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+}
